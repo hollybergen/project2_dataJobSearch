@@ -46,5 +46,5 @@ This will allow job hunters to select a specific DS job title and based on highe
         * Job Salary median (glassdoor API)
         * Housing market median
 
-[](https://github.com/mollyperlich/project2_dataJobSearch/blob/holly/Images/dataFlow.JPG)
-[](https://github.com/mollyperlich/project2_dataJobSearch/blob/holly/Images/MapIdea.jpg)
+![](https://github.com/mollyperlich/project2_dataJobSearch/blob/holly/Images/dataFlow.JPG)
+![](https://github.com/mollyperlich/project2_dataJobSearch/blob/holly/Images/MapIdea.jpg)
