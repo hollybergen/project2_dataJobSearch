@@ -25,6 +25,10 @@ This will allow job hunters to select a specific DS job title and based on highe
 - https://bl.ocks.org/mbostock/2206590
 - https://gist.github.com/cpietsch/dc76fc25863458a6a83e
 
+## New Library to be used: ##
+
+- Crossfilter - https://square.github.io/crossfilter/
+
 ## Technical Details: ##
 
 
@@ -42,6 +46,5 @@ This will allow job hunters to select a specific DS job title and based on highe
         * Job Salary median (glassdoor API)
         * Housing market median
 
-## New Library to be used: ##
-
-- Crossfilter - https://square.github.io/crossfilter/
+[](https://github.com/mollyperlich/project2_dataJobSearch/blob/holly/Images/dataFlow.JPG)
+[](https://github.com/mollyperlich/project2_dataJobSearch/blob/holly/Images/MapIdea.jpg)
