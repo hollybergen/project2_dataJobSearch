@@ -1,10 +1,16 @@
-# Unit 19 - Project 2
+# Project 2
 
-## Overview
 
-This week is all project work days and Project 2 Presentations.
-- - -
+## Data Sources
 
-### Copyright
+Job Listings
+* https://us.jooble.org/api/about
 
-Trilogy Education Services © 2019. All Rights Reserved.
+Housing Data
+* https://www.redfin.com/blog/data-center
+
+Weather Data
+* https://www.ncdc.noaa.gov/cdo-web/datasets
+
+Amenities
+* https://www.yelp.com/developers
