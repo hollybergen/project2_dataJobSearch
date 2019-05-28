@@ -1,6 +1,9 @@
 # Project2
+*.bak
 _config.py
 scratch
+test.html
+static/js/config.js
 
 # nbgrader database file
 gradebook.db
