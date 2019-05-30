@@ -1,3 +1,4 @@
+var city_jobs = 
 {
     "type": "FeatureCollection",
     "features": [
@@ -11,7 +12,12 @@
                 ]
             },
             "properties": {
-                "title": "Ann Arbor"
+                "title": "Ann Arbor",
+                "data scientist": 9,
+                "data engineer": 300,
+                "data analyst": 84,
+                "statistician": 28,
+                "data & analytics manager": 21
             }
         },
         {
@@ -24,7 +30,12 @@
                 ]
             },
             "properties": {
-                "title": "Atlanta"
+                "title": "Atlanta",
+                "data scientist": 30,
+                "data engineer": 300,
+                "data analyst": 285,
+                "statistician": 66,
+                "data & analytics manager": 86
             }
         },
         {
@@ -37,7 +48,12 @@
                 ]
             },
             "properties": {
-                "title": "Austin"
+                "title": "Austin",
+                "data scientist": null,
+                "data engineer": 300,
+                "data analyst": 120,
+                "statistician": 6,
+                "data & analytics manager": 39
             }
         },
         {
@@ -50,7 +66,12 @@
                 ]
             },
             "properties": {
-                "title": "Boston"
+                "title": "Boston",
+                "data scientist": 77,
+                "data engineer": 300,
+                "data analyst": 300,
+                "statistician": 94,
+                "data & analytics manager": 61
             }
         },
         {
@@ -63,7 +84,12 @@
                 ]
             },
             "properties": {
-                "title": "Charlotte"
+                "title": "Charlotte",
+                "data scientist": 6,
+                "data engineer": 300,
+                "data analyst": 252,
+                "statistician": 18,
+                "data & analytics manager": 42
             }
         },
         {
@@ -76,7 +102,12 @@
                 ]
             },
             "properties": {
-                "title": "Chicago"
+                "title": "Chicago",
+                "data scientist": 42,
+                "data engineer": 300,
+                "data analyst": 300,
+                "statistician": 149,
+                "data & analytics manager": 119
             }
         },
         {
@@ -89,7 +120,12 @@
                 ]
             },
             "properties": {
-                "title": "Cincinnati"
+                "title": "Cincinnati",
+                "data scientist": 15,
+                "data engineer": 201,
+                "data analyst": 95,
+                "statistician": 23,
+                "data & analytics manager": 15
             }
         },
         {
@@ -102,7 +138,12 @@
                 ]
             },
             "properties": {
-                "title": "Columbia"
+                "title": "Columbia",
+                "data scientist": 0,
+                "data engineer": 30,
+                "data analyst": 14,
+                "statistician": null,
+                "data & analytics manager": 3
             }
         },
         {
@@ -115,7 +156,12 @@
                 ]
             },
             "properties": {
-                "title": "Dallas"
+                "title": "Dallas",
+                "data scientist": 15,
+                "data engineer": 300,
+                "data analyst": 300,
+                "statistician": 108,
+                "data & analytics manager": 84
             }
         },
         {
@@ -128,7 +174,12 @@
                 ]
             },
             "properties": {
-                "title": "Denver"
+                "title": "Denver",
+                "data scientist": 11,
+                "data engineer": 300,
+                "data analyst": 134,
+                "statistician": 37,
+                "data & analytics manager": 28
             }
         },
         {
@@ -141,7 +192,12 @@
                 ]
             },
             "properties": {
-                "title": "Houston"
+                "title": "Houston",
+                "data scientist": 12,
+                "data engineer": 300,
+                "data analyst": 231,
+                "statistician": 79,
+                "data & analytics manager": 41
             }
         },
         {
@@ -154,7 +210,12 @@
                 ]
             },
             "properties": {
-                "title": "Jacksonville"
+                "title": "Jacksonville",
+                "data scientist": 0,
+                "data engineer": 194,
+                "data analyst": 84,
+                "statistician": 12,
+                "data & analytics manager": 11
             }
         },
         {
@@ -167,7 +228,12 @@
                 ]
             },
             "properties": {
-                "title": "Los Angeles"
+                "title": "Los Angeles",
+                "data scientist": 95,
+                "data engineer": 300,
+                "data analyst": 300,
+                "statistician": 148,
+                "data & analytics manager": 97
             }
         },
         {
@@ -180,7 +246,12 @@
                 ]
             },
             "properties": {
-                "title": "Louisville"
+                "title": "Louisville",
+                "data scientist": 2,
+                "data engineer": 107,
+                "data analyst": 31,
+                "statistician": 6,
+                "data & analytics manager": 6
             }
         },
         {
@@ -193,7 +264,12 @@
                 ]
             },
             "properties": {
-                "title": "Miami"
+                "title": "Miami",
+                "data scientist": 9,
+                "data engineer": 239,
+                "data analyst": 143,
+                "statistician": 50,
+                "data & analytics manager": 23
             }
         },
         {
@@ -206,7 +282,12 @@
                 ]
             },
             "properties": {
-                "title": "Minneapolis"
+                "title": "Minneapolis",
+                "data scientist": 11,
+                "data engineer": 300,
+                "data analyst": 252,
+                "statistician": 57,
+                "data & analytics manager": 19
             }
         },
         {
@@ -219,7 +300,12 @@
                 ]
             },
             "properties": {
-                "title": "Nashville"
+                "title": "Nashville",
+                "data scientist": 4,
+                "data engineer": 148,
+                "data analyst": 125,
+                "statistician": 30,
+                "data & analytics manager": 13
             }
         },
         {
@@ -232,7 +318,12 @@
                 ]
             },
             "properties": {
-                "title": "New York"
+                "title": "New York",
+                "data scientist": 94,
+                "data engineer": 300,
+                "data analyst": 300,
+                "statistician": 168,
+                "data & analytics manager": 160
             }
         },
         {
@@ -245,7 +336,12 @@
                 ]
             },
             "properties": {
-                "title": "Newport News"
+                "title": "Newport News",
+                "data scientist": null,
+                "data engineer": 82,
+                "data analyst": 45,
+                "statistician": 8,
+                "data & analytics manager": 13
             }
         },
         {
@@ -258,7 +354,12 @@
                 ]
             },
             "properties": {
-                "title": "Phoenix"
+                "title": "Phoenix",
+                "data scientist": 8,
+                "data engineer": 275,
+                "data analyst": 123,
+                "statistician": 26,
+                "data & analytics manager": 32
             }
         },
         {
@@ -271,7 +372,12 @@
                 ]
             },
             "properties": {
-                "title": "San Diego"
+                "title": "San Diego",
+                "data scientist": 24,
+                "data engineer": 241,
+                "data analyst": 96,
+                "statistician": 23,
+                "data & analytics manager": 15
             }
         },
         {
@@ -284,7 +390,12 @@
                 ]
             },
             "properties": {
-                "title": "San Francisco"
+                "title": "San Francisco",
+                "data scientist": 89,
+                "data engineer": 300,
+                "data analyst": 300,
+                "statistician": 91,
+                "data & analytics manager": 85
             }
         },
         {
@@ -297,7 +408,12 @@
                 ]
             },
             "properties": {
-                "title": "Seattle"
+                "title": "Seattle",
+                "data scientist": 12,
+                "data engineer": 300,
+                "data analyst": 91,
+                "statistician": 31,
+                "data & analytics manager": 32
             }
         },
         {
@@ -310,7 +426,12 @@
                 ]
             },
             "properties": {
-                "title": "Virginia Beach"
+                "title": "Virginia Beach",
+                "data scientist": null,
+                "data engineer": 81,
+                "data analyst": 45,
+                "statistician": 8,
+                "data & analytics manager": 13
             }
         }
     ]
