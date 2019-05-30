@@ -28,7 +28,16 @@ let satelliteMap = L.tileLayer(satellite+accessToken);
 // let plateUrl = "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json";
 
 
+//Initialize base map
+let myMap = L.map("map", {
+  center: [
+    39.8283, -98.5795
+  ],
+  zoom: 4.5
+});
 
+
+// Create function to determine radius of circles via job count
 function radius(num_jobs) {
   if (num_jobs >= 150) {
     return ;
@@ -42,6 +51,7 @@ function radius(num_jobs) {
 
 }
 
+// Create function to colorize circles via job count
 function color(num_jobs) {
   return num_jobs > 250 ? '#F30':
   num_jobs > 200  ? '#F60':
@@ -54,7 +64,8 @@ function color(num_jobs) {
 
 createFeatures(city_jobs)
 
-function createFeatures(cityData) {
+// Create function to pass in data and create circle layer with markers
+function createFeatures(data) {
   function pointToLayer(feature, latlng) {
     let markerStyle = {
       stroke: true,
@@ -66,22 +77,23 @@ function createFeatures(cityData) {
       // radius: radius(feature.properties['data scientist'])
     };
     return new L.circleMarker(latlng, markerStyle);
-  }
+  };
   
   function onEachFeature(feature, layer) {
-    console.log("onEachFeature")
-    layer.bindPopup("<h3>" + feature.properties.title +
-      "</h3><hr><p>" + "<br> Number of Jobs: " + feature.properties[jobChoice] +"</p>");
+    console.log("onEachFeature" + feature.properties.title),
+    console.log(feature.properties[jobChoice]),
+    layer.bindPopup("Hello");
+    
+    // ("<h3>" + feature.properties.title +
+    //   "</h3><hr><p>" + "<br> Number of Jobs: " + feature.properties[jobChoice] +"</p>");
   }
 
-  // Create a GeoJSON layer containing the features array on the earthquakeData object
+  // Create a GeoJSON layer containing the features array on the city jobs object
   // Run the onEachFeature function once for each piece of data in the array
   var cities = L.geoJSON(city_jobs, {
     pointToLayer: pointToLayer,
     onEachFeature: onEachFeature
   });
-
-  console.log(cities)
 
   createMap(cities);
 }
@@ -99,7 +111,7 @@ function createMap(cities) {
 
   
   // Create overlay object to hold our overlay layer
-  let overlayMaps = {
+  var overlayMaps = {
     //'Data Science Jobs': cities
     // Faultlines: faultlines,
     // Timeline: timeline,
@@ -108,13 +120,13 @@ function createMap(cities) {
 
 
   // Create our map, giving it the streetmap and earthquakes layers to display on load
-  let myMap = L.map("map", {
-    center: [
-      39.8283, -98.5795
-    ],
-    zoom: 4.5,
-    layers: [cities]
-  });
+  // let myMap = L.map("map", {
+  //   center: [
+  //     39.8283, -98.5795
+  //   ],
+  //   zoom: 4.5,
+  //   layers: [cities]
+  // });
 
   
   L.control.layers(baseMaps, overlayMaps, {
@@ -135,6 +147,10 @@ function createMap(cities) {
     }
     return div;
   };
+
   legend.addTo(myMap);
   darkMap.addTo(myMap);
+  cities.addTo(myMap);
+
+  // cities.bindPopup("HELLO").addTo(myMap);
 }
