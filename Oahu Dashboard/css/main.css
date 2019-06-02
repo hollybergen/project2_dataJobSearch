@@ -1,0 +1,127 @@
+
+    .green {
+        border: 1px solid green;
+    }
+    /* html, body, #container {
+      height: 100%;
+      overflow: hidden;
+      width: 100%;
+    }*/
+
+
+
+    .dc-chart g.row text {
+        font-family: 'Helvetica Neue', Helvetica,Arial,sans-serif;
+        fill: black;
+        font-weight: 500;
+    }
+    /*.dc-chart rect.bar  {fill: blue;}   */
+    
+    #map {
+        height: 480px;
+    }
+    
+/*    .dc-data-count small {
+        font-size: 16px;
+    }
+    */
+    .leaflet-zoom-anim .leaflet-zoom-animated {
+        duration: 2;
+    }
+    .info {
+        padding: 6px 8px;
+        font: 14px/16px Arial, Helvetica, sans-serif;
+        background: white;
+        background: rgba(255,255,255,0.8);
+        box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        border-radius: 5px;
+    }
+    .info h4 {
+        margin: 0 0 5px;
+        color: #777;
+    }
+    .info span {
+        margin-left: 5px;
+      
+    }
+
+
+    .legend {
+        text-align: left;
+        width: auto;
+        line-height: 18px;
+        color: #55555;
+        opacity: 0.9;
+    }
+    .text-center {
+      text-align: center;
+    }
+
+    .h4 {
+/*    text-align:center;
+    margin-left: 0px;
+    margin-bottom: 0px;*/
+    margin:auto;
+
+    }
+
+
+    .legend i {
+        width: 18px;
+        height: 18px;
+        float: left;
+        margin-right: 8px;
+        opacity: 0.7;
+    }
+    
+    .red {
+        border: 5px solid red;
+    }
+    
+    .margin-bottom{
+        margin-top: 10px;
+    }
+
+    .margin-top{
+        margin-top: 50px;
+    }
+    .chart-top{
+        margin-top: 25px;
+    }
+    #all {
+       margin-left: 35px 
+    }
+    .mychart {
+        clear: left
+    }
+    hr {
+        display: block;
+
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 1px;
+        margin-top: 30px;
+    }
+    h1, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    font-family: 'Helvetica Neue', Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1em;
+    word-wrap: break-word;
+
+    }
+
+    #range {
+        margin-top : 100px;
+
+    }
+
+     .d3-tip {
+      line-height: 1;
+      font-weight: bold;
+      padding: 12px;
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      border-radius: 8px;
+    }
