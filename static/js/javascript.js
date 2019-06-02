@@ -27,7 +27,7 @@ map.on('load', function () {
     "type": "symbol",
     "source": {
       "type": "geojson",
-      "data": './static/data/geojson.json'
+      "data": 'static/data/geojson.json'
     },
     "layout": {
       "icon-image": "{icon}-15",
