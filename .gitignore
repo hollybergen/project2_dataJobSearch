@@ -2,8 +2,8 @@
 *.bak
 _config.py
 scratch
+static
 test.html
-static/js/config.js
 
 # nbgrader database file
 gradebook.db
