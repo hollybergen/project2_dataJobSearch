@@ -27,12 +27,17 @@
   <!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> -->
   <link rel="stylesheet" href="./static/css/style.css">
   <script type="text/javascript" src="static/js/canvasjs.min.js"></script>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
 </head>
 
 <body>
-
-  <p>Data Science Job Hunter</p>
 
 
   <div id="holder">
@@ -48,14 +53,76 @@
       </form>
     </div>
 
+    <!-- Icons Grid
+  <section class="features-icons bg-light text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                  <i class="fas fa-chart-pie m-auto text-primary"></i>
+              </div>
+              <h3>I want to be a Data Scientist</h3>
+              <p class="lead mb-0">I am a unicorn in the workforce!</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-layers m-auto text-primary"></i>
+              </div>
+              <h3>I want to be a Data Engineer</h3>
+              <p class="lead mb-0">If I build it, they will come!</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="fas fa-chart-line m-auto text-primary"></i>
+            </div>
+              <h3>I want to be a Data Analyst</h3>
+              <p class="lead mb-0">Call me Detective Data!</p>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                <div class="features-icons-icon d-flex">
+                    <i class="fab fa-android m-auto text-primary"></i>
+                </div>
+                <h3>I want to be a Data & Analytics Manager</h3>
+                <p class="lead mb-0">I am the data wizard's cheerleader!</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                <div class="features-icons-icon d-flex">
+                  <i class="fas fa-brain m-auto text-primary"></i>
+              </div>
+                <h3>I want to be a Statistician</h3>
+                <p class="lead mb-0">Hate to brag but I am a logical genius!</p>
+                </div>
+              </div>
+          </div>
+        </div>
+    </section> -->
+
     <section class="container-fluid">
       <!-- <div class="container-fluid"></div> -->
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-8">
           <h2>Map</h2>
           <div id="map"></div>
           <!-- <div class="pie"></div> -->
         </div>
+        <div class="col-md-4">
+            <h2></h2>
+            <div id="city"></div>
+            <!-- <div class="pie"></div> -->
+          </div>
       </div>
 
       <div class="row chart"></div>
@@ -68,11 +135,19 @@
         </div>
 
         <div class="col col-lg-6 col-md-6 col-sm-6">
-          <!-- <h2>Map</h2> -->
-          <!-- <div id = "imgContainer"></div> -->
-          <div class="ImageContainer">
-            <div class="stateRank">Hello</div>
-          </div>
+          
+        <div id = "imgContainer"></div>
+
+        <div class="ImageContainer">
+          <div class="stateRank"></div> 
+        </div>
+          
+
+          <!-- <ul class="ImageContainer">
+              <li class="child">Coffee</li>
+              <li class="child">Tea</li>
+            </ul>
+            
 
         </div>
     </section>
@@ -121,7 +196,8 @@
       <script
         src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/leaflet.markercluster-src.js"></script>
 
-
+      <!-- <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
 </body>
 
 </html>

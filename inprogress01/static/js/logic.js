@@ -76,20 +76,31 @@ d3.json(cityJobs, cityData => {
       function pointToLayer(feature, latlng) {
         //console.log(feature)
         //target_feature = feature;
-        let markerStyle = {
-          stroke: true,
-          weight: 1,
-          fillOpacity: 0.75,
-          fillColor: color(feature.properties[jobChoice].number_jobs),
-          color: "white",
-          radius: 25
-          // radius: radius(feature.properties['data scientist'])
-        };
-        return new L.circleMarker(latlng, markerStyle);
-      };
+        
+        var value = feature.properties[jobChoice].number_jobs;
+        if (value !== null) {
+
+            let markerStyle = {
+              stroke: true,
+              weight: 1,
+              fillOpacity: 0.75,
+              fillColor: color(feature.properties[jobChoice].number_jobs),
+              color: "white",
+              radius: 25
+              // radius: radius(feature.properties['data scientist'])
+            };
+            return new L.circleMarker(latlng, markerStyle);
+          };
+        }
+
 
       function onEachFeature(feature, layer) {
-        layer.bindPopup('<h1>' + feature.properties.title + '</h1><hr><h3>Number of ' + properJobChoice + ' jobs: ' + feature.properties[jobChoice].number_jobs + '</h3>');
+        var properTitle = feature.properties.title.split(' ')
+        .map(w => w[0].toUpperCase() + w.substr(1).toLowerCase())
+        .join(' ')
+  
+        console.log(properTitle)
+        layer.bindPopup('<h1>' + properTitle + '</h1><hr><h3>Number of ' + properJobChoice + ' jobs: ' + feature.properties[jobChoice].number_jobs + '</h3>');
       
         //console.log(feature);
         target_feature = feature;

@@ -4,7 +4,7 @@
 
 function useState(state) {
     d3.json(stateInfo, function makeChart(data) {
-
+        // window.onload = function(){
             console.log(data.filter(el => Object.keys(el) == state));
             
             var state_name = data.filter(el => Object.keys(el) == state)[0][state];
@@ -12,48 +12,63 @@ function useState(state) {
             var img_url = state_name["Image URL"];
             console.log(typeof(img_url));
 
+            
+            // Check if image already exists and clear if so
             var div = document.getElementsByClassName("ImageContainer")[0];
-
             while(div.firstChild)
                 div.removeChild(div.firstChild);
 
-            // if (document.getElementById("ImageContainer") != null) {
-            // document.getElementById("ImageContainer").innerHTML = "";
-            // console.log("PICTURE IS NULL");
-            // }
-           
-            // Update image container based on state selected
-            var image = new Image();
-            //image.src = img_url;
-            // var url_str = "background-image: url("+img_url+");";
-            // console.log(url_str)
-            console.log(document.getElementsByClassName("ImageContainer"))
-            var x = document.getElementsByClassName("ImageContainer")[0]
-            x.style = "background-image: url("+img_url+");  background-size: 100% 100%"
-            
-            console.log(x.getElementsByClassName("stateRank"))
-            //x.getElementsByClassName("stateRank").style.backgroundColor = "red";
-
-            // var first = document.createElement("H1");
-            // var text = document.createTextNode("Jason is pretty awesome");
-            // first.appendChild(text);
-
-            // x.getElementsByClassName("stateRank")[0].appendChild(first);
-
-            //console.log(document.getElementById("stateRank"));
-            //.appendChild(first);
-
-            //var first = document.createElement("H1");
-            // document.getElementsByClassName("stateRank").appendChild()
-            // first.appendChild(first);
-            //document.querySelector("stateRank").appendChild(first);
-          
-                
-            
+            // Update state name to Title Case
             var properState = state.split(' ')
-                .map(w => w[0].toUpperCase() + w.substr(1).toLowerCase())
-                .join(' ')
+            .map(w => w[0].toUpperCase() + w.substr(1).toLowerCase())
+            .join(' ')
 
+            // Update image container based on state selected
+            console.log(document.getElementsByClassName("ImageContainer")[0]); 
+            var x = document.getElementsByClassName("ImageContainer")[0];
+            x.style = "background-image: url("+img_url+");  background-size: 100% 100%";
+            
+            // Update State Info within image div
+
+            var second = document.createElement("H1");
+            var text2 = document.createTextNode('Overall State Rank: ' + state_name["Overall Rating"]);
+            second.appendChild(text2);
+            document.getElementsByClassName("ImageContainer")[0].appendChild(second);
+        
+
+            // Create Table
+
+            const object = state_name["Stats Dictionary"];
+            for (const [key, value] of Object.entries(object)) {
+              console.log("Key" + key + "Value" + value);
+            }
+
+            function tableCreate() {
+                var body = document.getElementsByClassName("ImageContainer")[0];
+                var tbl = document.createElement('table');
+                tbl.style.fontSize = '20px';
+                tbl.style.color = 'black';
+                tbl.style.width = '100%';
+                tbl.style.backgroundColor = 'white';
+                tbl.style.opacity = '.8';
+                tbl.setAttribute('border', '2');
+                var tbdy = document.createElement('tbody');                
+                for (const [key, value] of Object.entries(object)) {
+                  var tr = document.createElement('tr');
+                      var td = document.createElement('td');
+                      td.appendChild(document.createTextNode(key + " : " + value));
+                      td.setAttribute('rowSpan', '1');
+                      tr.appendChild(td)
+                  tbdy.appendChild(tr);
+                };
+                tbl.appendChild(tbdy);
+                body.appendChild(tbl)
+              }
+              tableCreate();
+
+
+            
+            // Create Ranking Chart
             var chart = new CanvasJS.Chart("chartContainer", {
                 animationEnabled: true,
                 
@@ -82,7 +97,7 @@ function useState(state) {
                     ]
                 }]
             });
-
+        // };
             chart.render();
         
         });

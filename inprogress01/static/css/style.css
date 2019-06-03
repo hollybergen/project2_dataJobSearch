@@ -7,6 +7,7 @@
     bottom: 0;
     width: 100%;
     height: 300px;
+    padding: 20px;
   }
 
   body {
@@ -65,21 +66,21 @@
   } */
 
   .ImageContainer {
-    /* background-image: url("https://www.usnews.com/dims4/USNEWS/8fd1cba/2147483647/thumbnail/1000x468/quality/85/?url=http%3A%2F%2Fcom-usnews-beam-media.s3.amazonaws.com%2F67%2F03%2F781c1012412086bae07910f920fe%2Fbs17-new-york-editorial.jpg"); */
-    /* position: absolute; */
-    /* clip: rect(0, 500px, 400px, 0); */
-    /* box-shadow: 0 0 8px 8px white inset; */
-    /* position: absolute; */
     max-width:100%; 
     height:350px;
     margin-top: 60px;
     box-shadow: 0 0 8px 8px white inset;
+    padding: 30px;
+    color: white;
+    text-align: center;
   }
 
-  /* .blurred {
-    box-shadow: 0 0 8px 8px white inset;
-  } */
-
+  /* h2 {
+    text-align: center; */
+    /* background-color: black;
+    opacity: .5; */
+    
+  }
 
 
   
