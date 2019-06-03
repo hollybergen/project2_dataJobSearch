@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Russo+One);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,400italic);
+ 
  #map {
     position: absolute;
     top: 0;
@@ -10,6 +13,11 @@
     margin: 0;
     padding: 0;
     font: 16px/1.4 "Helvetica Neue", Arial, sans-serif;
+  }
+
+  .row {
+    /* height: 300px; */
+
   }
 
   a {
@@ -39,3 +47,39 @@
     padding: 5px;
     background-color: white;
   }
+
+  .chart {
+    height: 300px !important;
+  }
+
+  .img {
+    max-width:100%; 
+    height:100%; 
+    margin-top: 60px;
+    box-shadow: 0 0 8px 8px white inset;
+    /* object-fit: contain;  */
+  }
+
+  /* .ImageContainer {
+    position: relative;
+  } */
+
+  .ImageContainer {
+    /* background-image: url("https://www.usnews.com/dims4/USNEWS/8fd1cba/2147483647/thumbnail/1000x468/quality/85/?url=http%3A%2F%2Fcom-usnews-beam-media.s3.amazonaws.com%2F67%2F03%2F781c1012412086bae07910f920fe%2Fbs17-new-york-editorial.jpg"); */
+    /* position: absolute; */
+    /* clip: rect(0, 500px, 400px, 0); */
+    /* box-shadow: 0 0 8px 8px white inset; */
+    /* position: absolute; */
+    max-width:100%; 
+    height:350px;
+    margin-top: 60px;
+    box-shadow: 0 0 8px 8px white inset;
+  }
+
+  /* .blurred {
+    box-shadow: 0 0 8px 8px white inset;
+  } */
+
+
+
+  

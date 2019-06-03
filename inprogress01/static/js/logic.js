@@ -1,25 +1,27 @@
 
 var cityJobs = "static/data/city_stats1.json"
-var stateInfo = "static/data/states_results.json"
+var stateInfo = "static/data/states_results (2).json"
 var jobChoice = "data scientist";
+
+
+// Select job name as job title form url to pass into job choice variable
+var url = new URL(location.href)
+console.log(location.href);
+var query_string = url.search;
+var search_params = new URLSearchParams(query_string);
+var nullCheck = search_params.get("jobChoice").toLowerCase();
+console.log(nullCheck);
+
+if (nullCheck != null && nullCheck !== "") {
+  
+  jobChoice = nullCheck;
+  console.log(jobChoice);
+
+}
+
 var properJobChoice = jobChoice.split(' ')
   .map(w => w[0].toUpperCase() + w.substr(1).toLowerCase())
   .join(' ')
-
-//Select Job Choice variable based on button selected
-var jobChoice = $("button").val(); 
-$("button").click(function() {
-  jobChoice = $(this).val();
-  console.log(jobChoice);
-  //location.reload();
-});
-
-
-function othername(id) {
-  var input = document.getElementById(id).value;
-  jobChoice = id;
-  alert(input);
-}
 
 
 //console.log(stateInfo)
@@ -43,10 +45,6 @@ let outdoorsMap = L.tileLayer(outdoors + accessToken);
 let darkMap = L.tileLayer(dark + accessToken);
 let satelliteMap = L.tileLayer(satellite + accessToken);
 
-// let earthquakeUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
-// let plateUrl = "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json";
-
-
 
 //Initialize base map
 let myMap = L.map("map", {
@@ -55,20 +53,6 @@ let myMap = L.map("map", {
   ],
   zoom: 3.5
 });
-
-
-// Create function to determine radius of circles via job count
-// function radius(num_jobs) {
-//   if (num_jobs >= 150) {
-//     return ;
-//   }
-//   else if (num_jobs <= 10){
-//     return 10 * 2;
-//   }
-//   else {
-//     return num_jobs * 2;
-//   }
-// }
 
 // Create function to colorize circles via job count
 function color(num_jobs) {
@@ -80,24 +64,23 @@ function color(num_jobs) {
             '#9F3';
 }
 
-//createFeatures(city_jobs)
-
 // Create function to pass in data and create circle layer with markers
-//d3.json("./data/city_stats1.json", function (data) {
-
-
 d3.json(cityJobs, cityData => {
   d3.json(stateInfo, stateData => {
 
+    var target_feature = null;
+
     var city_data = cityData[0].features;
+    console.log(city_data);
 
       function pointToLayer(feature, latlng) {
         //console.log(feature)
+        //target_feature = feature;
         let markerStyle = {
           stroke: true,
           weight: 1,
           fillOpacity: 0.75,
-          fillColor: color(feature.properties[jobChoice]),
+          fillColor: color(feature.properties[jobChoice].number_jobs),
           color: "white",
           radius: 25
           // radius: radius(feature.properties['data scientist'])
@@ -106,19 +89,24 @@ d3.json(cityJobs, cityData => {
       };
 
       function onEachFeature(feature, layer) {
-        layer.bindPopup('<h1>' + feature.properties.title + '</h1><hr><h3>Number of ' + properJobChoice + ' jobs: ' + feature.properties[jobChoice] + '</h3>');
+        layer.bindPopup('<h1>' + feature.properties.title + '</h1><hr><h3>Number of ' + properJobChoice + ' jobs: ' + feature.properties[jobChoice].number_jobs + '</h3>');
+      
+        //console.log(feature);
+        target_feature = feature;
       }
-
 
       // Create a GeoJSON layer containing the features array on the city jobs object
       // Run the onEachFeature function once for each piece of data in the array
-      var cities = L.geoJSON(city_jobs, {
+      var cities = L.geoJSON(cityData[0], {
         pointToLayer: pointToLayer,
         onEachFeature: onEachFeature
       }).addTo(myMap).on('click', onClick);
 
       function onClick(e) {
         console.log(e.latlng);
+        stateSelected = e.layer.feature.properties.state;
+        console.log(stateSelected)
+        useState(stateSelected);
       }
 
       //var markers = L.markerClusterGroup();

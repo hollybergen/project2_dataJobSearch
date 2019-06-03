@@ -8,4 +8,5 @@ def scrape(url):
     browser.visit(url)
     html = browser.html
     soup = BeautifulSoup(html, 'html.parser')
+    browser.close()
     return soup
