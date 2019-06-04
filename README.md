@@ -3,14 +3,21 @@
 
 ## Data Sources
 
-Job Listings
-* https://us.jooble.org/api/about
+Median Household Income/Population:
 
-Housing Data
-* https://www.redfin.com/blog/data-center
+  * Kaggle Dataset (https://www.kaggle.com/goldenoakresearch/us-household-income-stats-geo-locations)
+  
+Jobs:
 
-Weather Data
-* https://www.ncdc.noaa.gov/cdo-web/datasets
+  Job Listings:
+  * https://www.careerbuilder.com (Scrape for search results)
+  * https://www.glassdoor.com/ (Scrape for job details)
+  
+API's called but not used for final project:
 
-Amenities
-* https://www.yelp.com/developers
+  Job Listings
+  * https://us.jooble.org/api/about
+  Weather Data
+  * https://www.ncdc.noaa.gov/cdo-web/datasets
+  Amenities
+  * https://www.yelp.com/developers
