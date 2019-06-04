@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Data Science Dashboard</title>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+  <!-- <script type="text/javascript" src="css/leaflet-css.css"></script> -->
+
+  <!-- Leaflet CSS & JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+  <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.7.0/moment.min.js" type="text/javascript"></script>
+  <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/leaflet.timeline@1.2.1/dist/leaflet.timeline.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="leaflet-heat.js"></script>
+
+
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+
+  <!--Bootstrap CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+  <!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
+  <!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> -->
+  <link rel="stylesheet" href="./static/css/style.css">
+  <script type="text/javascript" src="static/js/canvasjs.min.js"></script>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+
+  <div id="holder">
+    <div class="container">
+      <form id="form" action="dashboard.html" method="get">
+        <input type="submit" name="jobChoice" class="btn btn-primary btn-lg" value="Data Scientist">
+        <input type="submit" name="jobChoice" class="btn btn-primary btn-lg" value="Data Engineer">
+        <input type="submit" name="jobChoice" class="btn btn-primary btn-lg" value="Data Analyst">
+        <input type="submit" name="jobChoice" class="btn btn-primary btn-lg" value="Data & Analytics Manager">
+        <input type="submit" name="jobChoice" class="btn btn-primary btn-lg" value="Statistician">
+      </form>
+    </div>
+
+    <section class="container-fluid">
+      <!-- <div class="container-fluid"></div> -->
+
+      <div class="row">
+
+        <div class="col-lg-8">
+          <div id="map"></div>
+        </div>
+     
+        <div class="col-lg-4">
+          <div id="housingContainer" style="height: 300px; width: 100%;"></div>
+        </div>
+
+      </div>
+      
+
+      <div class="row chart">
+        
+        <div class="col col-lg-6 col-md-6 col-sm-6">
+          <div id="chartContainer"></div>
+        </div>
+
+        <div class="col col-lg-6 col-md-6 col-sm-6">
+          <div id = "imgContainer"></div>
+          <div class="ImageContainer">
+          <div class="stateRank"></div> 
+        </div>
+      </div>
+
+      <!-- <div class="row"></div> -->
+          <!-- <div class="col-lg-12 col-md-12"> -->
+            <!-- <h2>Map</h2> -->
+            <!-- <div id="housingContainer" style="height: 300px; width: 100%;"></div></div> -->
+            <!-- <div class="pie"></div> -->
+          <!-- </div> -->
+        <!-- </div> -->
+
+
+        <script>
+            window.onload = function () {
+            
+            var chart = new CanvasJS.Chart("housingContainer", {
+              animationEnabled: true,
+              theme: "light2", // "light1", "light2", "dark1", "dark2"
+              title: {
+                text: "Median Housing Prices - 2018 (x1000)"
+              },
+              subtitles: [{
+                text: "In USD",
+                fontSize: 16
+              }],
+              axisY: {
+                prefix: "$",
+                scaleBreaks: {
+                  customBreaks: [{
+                    startValue: 100000,
+                    endValue: 1500000,
+                  }]
+                }
+              },
+              data: [{
+                type: "column",
+                yValueFormatString: "$#,###,##0.00",
+                dataPoints: [
+                  { label: "San Francisco", y: 1357 },
+                  { label: "Seattle", y: 723 },
+                  { label: "LA", y: 686 },
+                  { label: "New York", y: 677 },
+                  { label: "San Diego", y: 634 },
+                  { label: "Boston", y: 599 },
+                  { label: "Denver", y: 425 },
+                        { label: "Ann Arbor", y: 382},
+                  { label: "Austin", y: 368 },
+                  { label: "Miami", y: 337 },
+                  { label: "Virginia Beach", y: 267 },
+                  { label: "Minneapolis", y: 267 },
+                  { label: "Nashville", y: 264 },
+                  { label: "Atlanta", y: 260 },
+                  { label: "Phoenix", y: 243 },
+                        { label: "Chicago", y: 229 },
+                  { label: "Charlotte", y: 225 },
+                  { label: "Dallas", y: 214 },
+                  { label: "Houston", y: 186 },
+                  { label: "Newport News", y: 180 },
+                        { label: "Jacksonville", y: 178},
+                  { label: "Louisville", y: 160 },
+                  { label: "Cincinnati", y: 144 },
+                  { label: "Columbia", y: 134 }
+                ]
+              }]
+            });
+            chart.render();
+            
+            }
+            </script>
+          
+
+          <!-- <ul class="ImageContainer">
+              <li class="child">Coffee</li>
+              <li class="child">Tea</li>
+            </ul>
+            
+
+        </div>
+    </section>
+        </div>
+      </div>
+
+
+
+
+      <!-- <div id="map"> -->
+
+
+      <!-- Load d3.js and the geo projection plugin -->
+      <script src="https://d3js.org/d3.v4.js"></script>
+      <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+
+      <!-- API Key -->
+      <script src="static/js/config.js"></script>
+
+      <!-- Data -->
+      <script src="static/data/city_jobs.geojson"></script>
+
+      <!-- D3 -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+
+      <!-- polyfill.io is library for using newer JavaScript features in older browers (such as Object.assign) -->
+      <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+      <!-- MomentJS -->
+      <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>
+
+      <!-- Leaflet/JavaScript -->
+      <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+        integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+        crossorigin=""></script>
+
+      <!-- <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script> -->
+      <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+      <!-- <script src="http://leaflet.github.io/Leaflet.markercluster/example/realworld.388.js"></script> -->
+      <!-- JavaScript -->
+      <script src="static/js/logic.js"></script>
+      <script src="static/js/state_chart.js"></script>
+      <script src="static/js/city_chart.js"></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/leaflet.markercluster-src.js"></script>
+
+      <!-- <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+</body>
+
+</html>
