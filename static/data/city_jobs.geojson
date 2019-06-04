@@ -1,0 +1,438 @@
+var city_jobs = 
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.7312291,
+                    42.2681569
+                ]
+            },
+            "properties": {
+                "title": "Ann Arbor",
+                "data scientist": 9,
+                "data engineer": 300,
+                "data analyst": 84,
+                "statistician": 28,
+                "data & analytics manager": 21
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.3901849,
+                    33.7490987
+                ]
+            },
+            "properties": {
+                "title": "Atlanta",
+                "data scientist": 30,
+                "data engineer": 300,
+                "data analyst": 285,
+                "statistician": 66,
+                "data & analytics manager": 86
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.7436995,
+                    30.2711286
+                ]
+            },
+            "properties": {
+                "title": "Austin",
+                "data scientist": null,
+                "data engineer": 300,
+                "data analyst": 120,
+                "statistician": 6,
+                "data & analytics manager": 39
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.0582912,
+                    42.3602534
+                ]
+            },
+            "properties": {
+                "title": "Boston",
+                "data scientist": 77,
+                "data engineer": 300,
+                "data analyst": 300,
+                "statistician": 94,
+                "data & analytics manager": 61
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.8431268,
+                    35.2270869
+                ]
+            },
+            "properties": {
+                "title": "Charlotte",
+                "data scientist": 6,
+                "data engineer": 300,
+                "data analyst": 252,
+                "statistician": 18,
+                "data & analytics manager": 42
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.6244212,
+                    41.8755616
+                ]
+            },
+            "properties": {
+                "title": "Chicago",
+                "data scientist": 42,
+                "data engineer": 300,
+                "data analyst": 300,
+                "statistician": 149,
+                "data & analytics manager": 119
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.5124602,
+                    39.1014537
+                ]
+            },
+            "properties": {
+                "title": "Cincinnati",
+                "data scientist": 15,
+                "data engineer": 201,
+                "data analyst": 95,
+                "statistician": 23,
+                "data & analytics manager": 15
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.0343313,
+                    34.0007493
+                ]
+            },
+            "properties": {
+                "title": "Columbia",
+                "data scientist": 0,
+                "data engineer": 30,
+                "data analyst": 14,
+                "statistician": null,
+                "data & analytics manager": 3
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -96.7968559,
+                    32.7762719
+                ]
+            },
+            "properties": {
+                "title": "Dallas",
+                "data scientist": 15,
+                "data engineer": 300,
+                "data analyst": 300,
+                "statistician": 108,
+                "data & analytics manager": 84
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9848623,
+                    39.7392364
+                ]
+            },
+            "properties": {
+                "title": "Denver",
+                "data scientist": 11,
+                "data engineer": 300,
+                "data analyst": 134,
+                "statistician": 37,
+                "data & analytics manager": 28
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -95.3676974,
+                    29.7589382
+                ]
+            },
+            "properties": {
+                "title": "Houston",
+                "data scientist": 12,
+                "data engineer": 300,
+                "data analyst": 231,
+                "statistician": 79,
+                "data & analytics manager": 41
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.655651,
+                    30.3321838
+                ]
+            },
+            "properties": {
+                "title": "Jacksonville",
+                "data scientist": 0,
+                "data engineer": 194,
+                "data analyst": 84,
+                "statistician": 12,
+                "data & analytics manager": 11
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.2427666,
+                    34.0536909
+                ]
+            },
+            "properties": {
+                "title": "Los Angeles",
+                "data scientist": 95,
+                "data engineer": 300,
+                "data analyst": 300,
+                "statistician": 148,
+                "data & analytics manager": 97
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -85.759407,
+                    38.2542376
+                ]
+            },
+            "properties": {
+                "title": "Louisville",
+                "data scientist": 2,
+                "data engineer": 107,
+                "data analyst": 31,
+                "statistician": 6,
+                "data & analytics manager": 6
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.1936589,
+                    25.7742658
+                ]
+            },
+            "properties": {
+                "title": "Miami",
+                "data scientist": 9,
+                "data engineer": 239,
+                "data analyst": 143,
+                "statistician": 50,
+                "data & analytics manager": 23
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.2654692,
+                    44.9772995
+                ]
+            },
+            "properties": {
+                "title": "Minneapolis",
+                "data scientist": 11,
+                "data engineer": 300,
+                "data analyst": 252,
+                "statistician": 57,
+                "data & analytics manager": 19
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.7743531,
+                    36.1622296
+                ]
+            },
+            "properties": {
+                "title": "Nashville",
+                "data scientist": 4,
+                "data engineer": 148,
+                "data analyst": 125,
+                "statistician": 30,
+                "data & analytics manager": 13
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.0060152,
+                    40.7127281
+                ]
+            },
+            "properties": {
+                "title": "New York",
+                "data scientist": 94,
+                "data engineer": 300,
+                "data analyst": 300,
+                "statistician": 168,
+                "data & analytics manager": 160
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.4321089,
+                    36.9786449
+                ]
+            },
+            "properties": {
+                "title": "Newport News",
+                "data scientist": null,
+                "data engineer": 82,
+                "data analyst": 45,
+                "statistician": 8,
+                "data & analytics manager": 13
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.0773456,
+                    33.4485866
+                ]
+            },
+            "properties": {
+                "title": "Phoenix",
+                "data scientist": 8,
+                "data engineer": 275,
+                "data analyst": 123,
+                "statistician": 26,
+                "data & analytics manager": 32
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.1627714,
+                    32.7174209
+                ]
+            },
+            "properties": {
+                "title": "San Diego",
+                "data scientist": 24,
+                "data engineer": 241,
+                "data analyst": 96,
+                "statistician": 23,
+                "data & analytics manager": 15
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4192363,
+                    37.7792808
+                ]
+            },
+            "properties": {
+                "title": "San Francisco",
+                "data scientist": 89,
+                "data engineer": 300,
+                "data analyst": 300,
+                "statistician": 91,
+                "data & analytics manager": 85
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3300624,
+                    47.6038321
+                ]
+            },
+            "properties": {
+                "title": "Seattle",
+                "data scientist": 12,
+                "data engineer": 300,
+                "data analyst": 91,
+                "statistician": 31,
+                "data & analytics manager": 32
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.9774183,
+                    36.8529841
+                ]
+            },
+            "properties": {
+                "title": "Virginia Beach",
+                "data scientist": null,
+                "data engineer": 81,
+                "data analyst": 45,
+                "statistician": 8,
+                "data & analytics manager": 13
+            }
+        }
+    ]
+}

@@ -1,0 +1,920 @@
+[
+    {
+        "california": {
+            "Image URL": "https://www.usnews.com/dims4/USNEWS/f204ead/2147483647/thumbnail/1000x468/quality/85/?url=http%3A%2F%2Fcom-usnews-beam-media.s3.amazonaws.com%2Fc7%2F3c%2F96e9514e4cc08c7ecb4026edce49%2Fbs17-california-crop-editorial.jpg",
+            "Overall Rating": "#19",
+            "Overall Rating Number": 19,
+            "State": "california",
+            "Stats Dictionary": {
+                "Area": "163,695 SQ. MI.",
+                "GDP": "$2,797.601 Billion",
+                "College Educated": "41%",
+                "Population": "39,536,653",
+                "Capital": "Sacramento",
+                "Median Income": "$35,046"
+            },
+            "Rank Dictionary": [
+                {
+                    "Category": "Education ",
+                    "Rank": "#21",
+                    "Value": 21,
+                    "Percentage": 58.00000000000001
+                },
+                {
+                    "Category": "Economy ",
+                    "Rank": "#4",
+                    "Value": 4,
+                    "Percentage": 92.0
+                },
+                {
+                    "Category": "Infrastructure ",
+                    "Rank": "#32",
+                    "Value": 32,
+                    "Percentage": 36.0
+                },
+                {
+                    "Category": "Opportunity ",
+                    "Rank": "#49",
+                    "Value": 49,
+                    "Percentage": 2.0000000000000018
+                },
+                {
+                    "Category": "Fiscal Stability ",
+                    "Rank": "#42",
+                    "Value": 42,
+                    "Percentage": 16.000000000000004
+                },
+                {
+                    "Category": "Crime & Corrections ",
+                    "Rank": "#23",
+                    "Value": 23,
+                    "Percentage": 54.0
+                }
+            ]
+        }
+    },
+    {
+        "colorado": {
+            "Image URL": "https://www.usnews.com/dims4/USNEWS/9083412/2147483647/crop/4050x1895%2B0%2B423/resize/1000x468/quality/85/?url=http%3A%2F%2Fcom-usnews-beam-media.s3.amazonaws.com%2F22%2F0e%2F2d0efc9b46549ad0ef9d424c647e%2Fbs19-colorado-editorial.JPG",
+            "Overall Rating": "#10",
+            "Overall Rating Number": 10,
+            "State": "colorado",
+            "Stats Dictionary": {
+                "Area": "104,094 SQ. MI.",
+                "GDP": "$345.233 Billion",
+                "College Educated": "49%",
+                "Population": "5,607,154",
+                "Capital": "Denver",
+                "Median Income": "$36,345"
+            },
+            "Rank Dictionary": [
+                {
+                    "Category": "Education ",
+                    "Rank": "#11",
+                    "Value": 11,
+                    "Percentage": 78.0
+                },
+                {
+                    "Category": "Economy ",
+                    "Rank": "#1",
+                    "Value": 1,
+                    "Percentage": 98.0
+                },
+                {
+                    "Category": "Infrastructure ",
+                    "Rank": "#8",
+                    "Value": 8,
+                    "Percentage": 84.0
+                },
+                {
+                    "Category": "Opportunity ",
+                    "Rank": "#28",
+                    "Value": 28,
+                    "Percentage": 43.99999999999999
+                },
+                {
+                    "Category": "Fiscal Stability ",
+                    "Rank": "#29",
+                    "Value": 29,
+                    "Percentage": 42.00000000000001
+                },
+                {
+                    "Category": "Crime & Corrections ",
+                    "Rank": "#29",
+                    "Value": 29,
+                    "Percentage": 42.00000000000001
+                }
+            ]
+        }
+    },
+    {
+        "illinois": {
+            "Image URL": "https://www.usnews.com/dims4/USNEWS/0a8c0a9/2147483647/thumbnail/1000x468/quality/85/?url=http%3A%2F%2Fcom-usnews-beam-media.s3.amazonaws.com%2F2e%2F7c%2F6f64028b485da2fb0bccf0b20e69%2Fbs17-illinois-crop-editorial.jpg",
+            "Overall Rating": "#35",
+            "Overall Rating Number": 35,
+            "State": "illinois",
+            "Stats Dictionary": {
+                "Area": "57,914 SQ. MI.",
+                "GDP": "$822.54 Billion",
+                "College Educated": "42%",
+                "Population": "12,802,023",
+                "Capital": "Springfield",
+                "Median Income": "$34,196"
+            },
+            "Rank Dictionary": [
+                {
+                    "Category": "Education ",
+                    "Rank": "#19",
+                    "Value": 19,
+                    "Percentage": 62.0
+                },
+                {
+                    "Category": "Economy ",
+                    "Rank": "#41",
+                    "Value": 41,
+                    "Percentage": 18.000000000000004
+                },
+                {
+                    "Category": "Infrastructure ",
+                    "Rank": "#24",
+                    "Value": 24,
+                    "Percentage": 52.0
+                },
+                {
+                    "Category": "Opportunity ",
+                    "Rank": "#17",
+                    "Value": 17,
+                    "Percentage": 65.99999999999999
+                },
+                {
+                    "Category": "Fiscal Stability ",
+                    "Rank": "#50",
+                    "Value": 50,
+                    "Percentage": 0.0
+                },
+                {
+                    "Category": "Crime & Corrections ",
+                    "Rank": "#20",
+                    "Value": 20,
+                    "Percentage": 60.0
+                }
+            ]
+        }
+    },
+    {
+        "kentucky": {
+            "Image URL": "https://www.usnews.com/dims4/USNEWS/4b45f3b/2147483647/thumbnail/1000x468/quality/85/?url=http%3A%2F%2Fcom-usnews-beam-media.s3.amazonaws.com%2Fa3%2Fc7%2Ff0b562bd4872babf0e3c81e46fa6%2Fbs17-kentucky-crop-editorial.jpg",
+            "Overall Rating": "#40",
+            "Overall Rating Number": 40,
+            "State": "kentucky",
+            "Stats Dictionary": {
+                "Area": "40,408 SQ. MI.",
+                "GDP": "$202.175 Billion",
+                "College Educated": "32%",
+                "Population": "4,454,189",
+                "Capital": "Frankfort",
+                "Median Income": "$26,779"
+            },
+            "Rank Dictionary": [
+                {
+                    "Category": "Education ",
+                    "Rank": "#38",
+                    "Value": 38,
+                    "Percentage": 24.0
+                },
+                {
+                    "Category": "Economy ",
+                    "Rank": "#39",
+                    "Value": 39,
+                    "Percentage": 21.999999999999996
+                },
+                {
+                    "Category": "Infrastructure ",
+                    "Rank": "#26",
+                    "Value": 26,
+                    "Percentage": 48.0
+                },
+                {
+                    "Category": "Opportunity ",
+                    "Rank": "#20",
+                    "Value": 20,
+                    "Percentage": 60.0
+                },
+                {
+                    "Category": "Fiscal Stability ",
+                    "Rank": "#45",
+                    "Value": 45,
+                    "Percentage": 9.999999999999998
+                },
+                {
+                    "Category": "Crime & Corrections ",
+                    "Rank": "#11",
+                    "Value": 11,
+                    "Percentage": 78.0
+                }
+            ]
+        }
+    },
+    {
+        "florida": {
+            "Image URL": "https://www.usnews.com/dims4/USNEWS/4974422/2147483647/thumbnail/1000x468/quality/85/?url=http%3A%2F%2Fcom-usnews-beam-media.s3.amazonaws.com%2F13%2Fd2%2Fa00877ee4f29b2d2ce96c608db5b%2Fbs17-florida-crop-editorial.jpg",
+            "Overall Rating": "#13",
+            "Overall Rating Number": 13,
+            "State": "florida",
+            "Stats Dictionary": {
+                "Area": "65,758 SQ. MI.",
+                "GDP": "$976.386 Billion",
+                "College Educated": "40%",
+                "Population": "20,984,400",
+                "Capital": "Tallahassee",
+                "Median Income": "$29,838"
+            },
+            "Rank Dictionary": [
+                {
+                    "Category": "Education ",
+                    "Rank": "#3",
+                    "Value": 3,
+                    "Percentage": 94.0
+                },
+                {
+                    "Category": "Economy ",
+                    "Rank": "#9",
+                    "Value": 9,
+                    "Percentage": 82.0
+                },
+                {
+                    "Category": "Infrastructure ",
+                    "Rank": "#14",
+                    "Value": 14,
+                    "Percentage": 72.0
+                },
+                {
+                    "Category": "Opportunity ",
+                    "Rank": "#38",
+                    "Value": 38,
+                    "Percentage": 24.0
+                },
+                {
+                    "Category": "Fiscal Stability ",
+                    "Rank": "#2",
+                    "Value": 2,
+                    "Percentage": 96.0
+                },
+                {
+                    "Category": "Crime & Corrections ",
+                    "Rank": "#31",
+                    "Value": 31,
+                    "Percentage": 38.0
+                }
+            ]
+        }
+    },
+    {
+        "georgia": {
+            "Image URL": "https://www.usnews.com/dims4/USNEWS/0e5a123/2147483647/thumbnail/1000x468/quality/85/?url=http%3A%2F%2Fcom-usnews-beam-media.s3.amazonaws.com%2F30%2F74%2Fc19000c4435faf544bc9aae74c3a%2Fbs17-georgia-crop-editorial.jpg",
+            "Overall Rating": "#17",
+            "Overall Rating Number": 17,
+            "State": "georgia",
+            "Stats Dictionary": {
+                "Area": "59,425 SQ. MI.",
+                "GDP": "$563.608 Billion",
+                "College Educated": "39%",
+                "Population": "10,429,379",
+                "Capital": "Atlanta",
+                "Median Income": "$29,668"
+            },
+            "Rank Dictionary": [
+                {
+                    "Category": "Education ",
+                    "Rank": "#30",
+                    "Value": 30,
+                    "Percentage": 40.0
+                },
+                {
+                    "Category": "Economy ",
+                    "Rank": "#11",
+                    "Value": 11,
+                    "Percentage": 78.0
+                },
+                {
+                    "Category": "Infrastructure ",
+                    "Rank": "#10",
+                    "Value": 10,
+                    "Percentage": 80.0
+                },
+                {
+                    "Category": "Opportunity ",
+                    "Rank": "#21",
+                    "Value": 21,
+                    "Percentage": 58.00000000000001
+                },
+                {
+                    "Category": "Fiscal Stability ",
+                    "Rank": "#9",
+                    "Value": 9,
+                    "Percentage": 82.0
+                },
+                {
+                    "Category": "Crime & Corrections ",
+                    "Rank": "#27",
+                    "Value": 27,
+                    "Percentage": 46.0
+                }
+            ]
+        }
+    },
+    {
+        "massachusetts": {
+            "Image URL": "https://www.usnews.com/dims4/USNEWS/88f029e/2147483647/crop/4050x1895%2B0%2B325/resize/1000x468/quality/85/?url=http%3A%2F%2Fcom-usnews-beam-media.s3.amazonaws.com%2F9f%2Fb8%2F376325534a4286db204186aa8475%2Fbs19-massachusetts-editorial.jpg",
+            "Overall Rating": "#8",
+            "Overall Rating Number": 8,
+            "State": "massachusetts",
+            "Stats Dictionary": {
+                "Area": "10,554 SQ. MI.",
+                "GDP": "$542.979 Billion",
+                "College Educated": "51%",
+                "Population": "6,859,819",
+                "Capital": "Boston",
+                "Median Income": "$41,821"
+            },
+            "Rank Dictionary": [
+                {
+                    "Category": "Education ",
+                    "Rank": "#1",
+                    "Value": 1,
+                    "Percentage": 98.0
+                },
+                {
+                    "Category": "Economy ",
+                    "Rank": "#7",
+                    "Value": 7,
+                    "Percentage": 86.0
+                },
+                {
+                    "Category": "Infrastructure ",
+                    "Rank": "#44",
+                    "Value": 44,
+                    "Percentage": 12.0
+                },
+                {
+                    "Category": "Opportunity ",
+                    "Rank": "#29",
+                    "Value": 29,
+                    "Percentage": 42.00000000000001
+                },
+                {
+                    "Category": "Fiscal Stability ",
+                    "Rank": "#30",
+                    "Value": 30,
+                    "Percentage": 40.0
+                },
+                {
+                    "Category": "Crime & Corrections ",
+                    "Rank": "#4",
+                    "Value": 4,
+                    "Percentage": 92.0
+                }
+            ]
+        }
+    },
+    {
+        "michigan": {
+            "Image URL": "https://www.usnews.com/dims4/USNEWS/8e667bf/2147483647/thumbnail/1000x468/quality/85/?url=http%3A%2F%2Fcom-usnews-beam-media.s3.amazonaws.com%2Fc2%2F12%2F22cb60024d73b828b563b49a6773%2Fbs17-michigan-crop-editorial.jpg",
+            "Overall Rating": "#33",
+            "Overall Rating Number": 33,
+            "State": "michigan",
+            "Stats Dictionary": {
+                "Area": "96,714 SQ. MI.",
+                "GDP": "$508.905 Billion",
+                "College Educated": "39%",
+                "Population": "9,962,311",
+                "Capital": "Lansing",
+                "Median Income": "$30,488"
+            },
+            "Rank Dictionary": [
+                {
+                    "Category": "Education ",
+                    "Rank": "#37",
+                    "Value": 37,
+                    "Percentage": 26.0
+                },
+                {
+                    "Category": "Economy ",
+                    "Rank": "#19",
+                    "Value": 19,
+                    "Percentage": 62.0
+                },
+                {
+                    "Category": "Infrastructure ",
+                    "Rank": "#41",
+                    "Value": 41,
+                    "Percentage": 18.000000000000004
+                },
+                {
+                    "Category": "Opportunity ",
+                    "Rank": "#14",
+                    "Value": 14,
+                    "Percentage": 72.0
+                },
+                {
+                    "Category": "Fiscal Stability ",
+                    "Rank": "#27",
+                    "Value": 27,
+                    "Percentage": 46.0
+                },
+                {
+                    "Category": "Crime & Corrections ",
+                    "Rank": "#35",
+                    "Value": 35,
+                    "Percentage": 30.000000000000004
+                }
+            ]
+        }
+    },
+    {
+        "minnesota": {
+            "Image URL": "https://www.usnews.com/dims4/USNEWS/0f76134/2147483647/crop/4050x1895%2B0%2B638/resize/1000x468/quality/85/?url=http%3A%2F%2Fcom-usnews-beam-media.s3.amazonaws.com%2Fae%2Ffa%2F77828ed54335a7f6fb84f61c4b4e%2Fbs19-minnesota-editorial.jpg",
+            "Overall Rating": "#3",
+            "Overall Rating Number": 3,
+            "State": "minnesota",
+            "Stats Dictionary": {
+                "Area": "86,936 SQ. MI.",
+                "GDP": "$350.179 Billion",
+                "College Educated": "47%",
+                "Population": "5,576,606",
+                "Capital": "Saint Paul",
+                "Median Income": "$36,156"
+            },
+            "Rank Dictionary": [
+                {
+                    "Category": "Education ",
+                    "Rank": "#17",
+                    "Value": 17,
+                    "Percentage": 65.99999999999999
+                },
+                {
+                    "Category": "Economy ",
+                    "Rank": "#18",
+                    "Value": 18,
+                    "Percentage": 64.0
+                },
+                {
+                    "Category": "Infrastructure ",
+                    "Rank": "#6",
+                    "Value": 6,
+                    "Percentage": 88.0
+                },
+                {
+                    "Category": "Opportunity ",
+                    "Rank": "#3",
+                    "Value": 3,
+                    "Percentage": 94.0
+                },
+                {
+                    "Category": "Fiscal Stability ",
+                    "Rank": "#25",
+                    "Value": 25,
+                    "Percentage": 50.0
+                },
+                {
+                    "Category": "Crime & Corrections ",
+                    "Rank": "#16",
+                    "Value": 16,
+                    "Percentage": 68.0
+                }
+            ]
+        }
+    },
+    {
+        "new york": {
+            "Image URL": "https://www.usnews.com/dims4/USNEWS/8fd1cba/2147483647/thumbnail/1000x468/quality/85/?url=http%3A%2F%2Fcom-usnews-beam-media.s3.amazonaws.com%2F67%2F03%2F781c1012412086bae07910f920fe%2Fbs17-new-york-editorial.jpg",
+            "Overall Rating": "#25",
+            "Overall Rating Number": 25,
+            "State": "new york",
+            "Stats Dictionary": {
+                "Area": "54,555 SQ. MI.",
+                "GDP": "$1,606.601 Billion",
+                "College Educated": "45%",
+                "Population": "19,849,399",
+                "Capital": "Albany",
+                "Median Income": "$37,156"
+            },
+            "Rank Dictionary": [
+                {
+                    "Category": "Education ",
+                    "Rank": "#22",
+                    "Value": 22,
+                    "Percentage": 56.00000000000001
+                },
+                {
+                    "Category": "Economy ",
+                    "Rank": "#33",
+                    "Value": 33,
+                    "Percentage": 34.0
+                },
+                {
+                    "Category": "Infrastructure ",
+                    "Rank": "#22",
+                    "Value": 22,
+                    "Percentage": 56.00000000000001
+                },
+                {
+                    "Category": "Opportunity ",
+                    "Rank": "#47",
+                    "Value": 47,
+                    "Percentage": 6.000000000000005
+                },
+                {
+                    "Category": "Fiscal Stability ",
+                    "Rank": "#26",
+                    "Value": 26,
+                    "Percentage": 48.0
+                },
+                {
+                    "Category": "Crime & Corrections ",
+                    "Rank": "#10",
+                    "Value": 10,
+                    "Percentage": 80.0
+                }
+            ]
+        }
+    },
+    {
+        "north carolina": {
+            "Image URL": "https://www.usnews.com/dims4/USNEWS/7133591/2147483647/thumbnail/1000x468/quality/85/?url=http%3A%2F%2Fcom-usnews-beam-media.s3.amazonaws.com%2Fab%2F84%2Fece8ab2f4e66a578df9e7d879b6f%2Fbs17-north-carolina-crop-editorial.jpg",
+            "Overall Rating": "#18",
+            "Overall Rating Number": 18,
+            "State": "north carolina",
+            "Stats Dictionary": {
+                "Area": "53,819 SQ. MI.",
+                "GDP": "$540.497 Billion",
+                "College Educated": "41%",
+                "Population": "10,273,419",
+                "Capital": "Raleigh",
+                "Median Income": "$29,560"
+            },
+            "Rank Dictionary": [
+                {
+                    "Category": "Education ",
+                    "Rank": "#25",
+                    "Value": 25,
+                    "Percentage": 50.0
+                },
+                {
+                    "Category": "Economy ",
+                    "Rank": "#14",
+                    "Value": 14,
+                    "Percentage": 72.0
+                },
+                {
+                    "Category": "Infrastructure ",
+                    "Rank": "#18",
+                    "Value": 18,
+                    "Percentage": 64.0
+                },
+                {
+                    "Category": "Opportunity ",
+                    "Rank": "#36",
+                    "Value": 36,
+                    "Percentage": 28.000000000000004
+                },
+                {
+                    "Category": "Fiscal Stability ",
+                    "Rank": "#4",
+                    "Value": 4,
+                    "Percentage": 92.0
+                },
+                {
+                    "Category": "Crime & Corrections ",
+                    "Rank": "#14",
+                    "Value": 14,
+                    "Percentage": 72.0
+                }
+            ]
+        }
+    },
+    {
+        "ohio": {
+            "Image URL": "https://www.usnews.com/dims4/USNEWS/9728890/2147483647/thumbnail/1000x468/quality/85/?url=http%3A%2F%2Fcom-usnews-beam-media.s3.amazonaws.com%2Fde%2Fcd%2F5196251643938c3f400710d8a929%2Fbs17-ohio-crop-editorial.jpg",
+            "Overall Rating": "#39",
+            "Overall Rating Number": 39,
+            "State": "ohio",
+            "Stats Dictionary": {
+                "Area": "44,826 SQ. MI.",
+                "GDP": "$645.747 Billion",
+                "College Educated": "37%",
+                "Population": "11,658,609",
+                "Capital": "Columbus",
+                "Median Income": "$30,038"
+            },
+            "Rank Dictionary": [
+                {
+                    "Category": "Education ",
+                    "Rank": "#31",
+                    "Value": 31,
+                    "Percentage": 38.0
+                },
+                {
+                    "Category": "Economy ",
+                    "Rank": "#38",
+                    "Value": 38,
+                    "Percentage": 24.0
+                },
+                {
+                    "Category": "Infrastructure ",
+                    "Rank": "#27",
+                    "Value": 27,
+                    "Percentage": 46.0
+                },
+                {
+                    "Category": "Opportunity ",
+                    "Rank": "#7",
+                    "Value": 7,
+                    "Percentage": 86.0
+                },
+                {
+                    "Category": "Fiscal Stability ",
+                    "Rank": "#41",
+                    "Value": 41,
+                    "Percentage": 18.000000000000004
+                },
+                {
+                    "Category": "Crime & Corrections ",
+                    "Rank": "#28",
+                    "Value": 28,
+                    "Percentage": 43.99999999999999
+                }
+            ]
+        }
+    },
+    {
+        "south carolina": {
+            "Image URL": "https://www.usnews.com/dims4/USNEWS/b30d56f/2147483647/thumbnail/1000x468/quality/85/?url=http%3A%2F%2Fcom-usnews-beam-media.s3.amazonaws.com%2F5d%2Fdd%2F4f6435644716b8fe66b9105abcb0%2Fbs17-south-carolina-crop-editorial.jpg",
+            "Overall Rating": "#42",
+            "Overall Rating Number": 42,
+            "State": "south carolina",
+            "Stats Dictionary": {
+                "Area": "32,020 SQ. MI.",
+                "GDP": "$221.69 Billion",
+                "College Educated": "38%",
+                "Population": "5,024,369",
+                "Capital": "Columbia",
+                "Median Income": "$27,909"
+            },
+            "Rank Dictionary": [
+                {
+                    "Category": "Education ",
+                    "Rank": "#43",
+                    "Value": 43,
+                    "Percentage": 14.000000000000002
+                },
+                {
+                    "Category": "Economy ",
+                    "Rank": "#16",
+                    "Value": 16,
+                    "Percentage": 68.0
+                },
+                {
+                    "Category": "Infrastructure ",
+                    "Rank": "#36",
+                    "Value": 36,
+                    "Percentage": 28.000000000000004
+                },
+                {
+                    "Category": "Opportunity ",
+                    "Rank": "#41",
+                    "Value": 41,
+                    "Percentage": 18.000000000000004
+                },
+                {
+                    "Category": "Fiscal Stability ",
+                    "Rank": "#20",
+                    "Value": 20,
+                    "Percentage": 60.0
+                },
+                {
+                    "Category": "Crime & Corrections ",
+                    "Rank": "#46",
+                    "Value": 46,
+                    "Percentage": 7.9999999999999964
+                }
+            ]
+        }
+    },
+    {
+        "tennessee": {
+            "Image URL": "https://www.usnews.com/dims4/USNEWS/e40e6a1/2147483647/thumbnail/1000x468/quality/85/?url=http%3A%2F%2Fcom-usnews-beam-media.s3.amazonaws.com%2Fcd%2Fbb%2F12391180495bbe92ad070741a1ae%2Fbs17-tennessee-crop-editorial.jpg",
+            "Overall Rating": "#30",
+            "Overall Rating Number": 30,
+            "State": "tennessee",
+            "Stats Dictionary": {
+                "Area": "42,144 SQ. MI.",
+                "GDP": "$349.569 Billion",
+                "College Educated": "35%",
+                "Population": "6,715,984",
+                "Capital": "Nashville",
+                "Median Income": "$28,764"
+            },
+            "Rank Dictionary": [
+                {
+                    "Category": "Education ",
+                    "Rank": "#35",
+                    "Value": 35,
+                    "Percentage": 30.000000000000004
+                },
+                {
+                    "Category": "Economy ",
+                    "Rank": "#12",
+                    "Value": 12,
+                    "Percentage": 76.0
+                },
+                {
+                    "Category": "Infrastructure ",
+                    "Rank": "#13",
+                    "Value": 13,
+                    "Percentage": 74.0
+                },
+                {
+                    "Category": "Opportunity ",
+                    "Rank": "#26",
+                    "Value": 26,
+                    "Percentage": 48.0
+                },
+                {
+                    "Category": "Fiscal Stability ",
+                    "Rank": "#1",
+                    "Value": 1,
+                    "Percentage": 98.0
+                },
+                {
+                    "Category": "Crime & Corrections ",
+                    "Rank": "#43",
+                    "Value": 43,
+                    "Percentage": 14.000000000000002
+                }
+            ]
+        }
+    },
+    {
+        "texas": {
+            "Image URL": "https://www.usnews.com/dims4/USNEWS/aa0d2f3/2147483647/thumbnail/1000x468/quality/85/?url=http%3A%2F%2Fcom-usnews-beam-media.s3.amazonaws.com%2Fcd%2Fa0%2Fb477f6c64800b06043e37c1a9fdf%2Fbs17-texas-crop-editorial.jpg",
+            "Overall Rating": "#38",
+            "Overall Rating Number": 38,
+            "State": "texas",
+            "Stats Dictionary": {
+                "Area": "268,596 SQ. MI.",
+                "GDP": "$1,645.136 Billion",
+                "College Educated": "37%",
+                "Population": "28,304,596",
+                "Capital": "Austin",
+                "Median Income": "$29,525"
+            },
+            "Rank Dictionary": [
+                {
+                    "Category": "Education ",
+                    "Rank": "#34",
+                    "Value": 34,
+                    "Percentage": 31.999999999999996
+                },
+                {
+                    "Category": "Economy ",
+                    "Rank": "#15",
+                    "Value": 15,
+                    "Percentage": 70.0
+                },
+                {
+                    "Category": "Infrastructure ",
+                    "Rank": "#33",
+                    "Value": 33,
+                    "Percentage": 34.0
+                },
+                {
+                    "Category": "Opportunity ",
+                    "Rank": "#39",
+                    "Value": 39,
+                    "Percentage": 21.999999999999996
+                },
+                {
+                    "Category": "Fiscal Stability ",
+                    "Rank": "#12",
+                    "Value": 12,
+                    "Percentage": 76.0
+                },
+                {
+                    "Category": "Crime & Corrections ",
+                    "Rank": "#33",
+                    "Value": 33,
+                    "Percentage": 34.0
+                }
+            ]
+        }
+    },
+    {
+        "virginia": {
+            "Image URL": "https://www.usnews.com/dims4/USNEWS/dd48fa1/2147483647/crop/4050x1895%2B0%2B802/resize/1000x468/quality/85/?url=http%3A%2F%2Fcom-usnews-beam-media.s3.amazonaws.com%2F35%2F61%2F62d431d8478f9045a216af53b9ca%2Fbs19-virginia-editorial.jpg",
+            "Overall Rating": "#7",
+            "Overall Rating Number": 7,
+            "State": "virginia",
+            "Stats Dictionary": {
+                "Area": "42,775 SQ. MI.",
+                "GDP": "$510.586 Billion",
+                "College Educated": "47%",
+                "Population": "8,470,020",
+                "Capital": "Richmond",
+                "Median Income": "$37,442"
+            },
+            "Rank Dictionary": [
+                {
+                    "Category": "Education ",
+                    "Rank": "#7",
+                    "Value": 7,
+                    "Percentage": 86.0
+                },
+                {
+                    "Category": "Economy ",
+                    "Rank": "#25",
+                    "Value": 25,
+                    "Percentage": 50.0
+                },
+                {
+                    "Category": "Infrastructure ",
+                    "Rank": "#35",
+                    "Value": 35,
+                    "Percentage": 30.000000000000004
+                },
+                {
+                    "Category": "Opportunity ",
+                    "Rank": "#9",
+                    "Value": 9,
+                    "Percentage": 82.0
+                },
+                {
+                    "Category": "Fiscal Stability ",
+                    "Rank": "#8",
+                    "Value": 8,
+                    "Percentage": 84.0
+                },
+                {
+                    "Category": "Crime & Corrections ",
+                    "Rank": "#9",
+                    "Value": 9,
+                    "Percentage": 82.0
+                }
+            ]
+        }
+    },
+    {
+        "washington": {
+            "Image URL": "https://www.usnews.com/dims4/USNEWS/0a65959/2147483647/crop/4050x1895%2B0%2B802/resize/1000x468/quality/85/?url=http%3A%2F%2Fcom-usnews-beam-media.s3.amazonaws.com%2F49%2F3f%2F614945704eafae7e1a9cf59366bf%2Fbs19-washington-editorial.jpg",
+            "Overall Rating": "#1",
+            "Overall Rating Number": 1,
+            "State": "washington",
+            "Stats Dictionary": {
+                "Area": "71,298 SQ. MI.",
+                "GDP": "$524.323 Billion",
+                "College Educated": "46%",
+                "Population": "7,405,743",
+                "Capital": "Olympia",
+                "Median Income": "$36,975"
+            },
+            "Rank Dictionary": [
+                {
+                    "Category": "Education ",
+                    "Rank": "#4",
+                    "Value": 4,
+                    "Percentage": 92.0
+                },
+                {
+                    "Category": "Economy ",
+                    "Rank": "#3",
+                    "Value": 3,
+                    "Percentage": 94.0
+                },
+                {
+                    "Category": "Infrastructure ",
+                    "Rank": "#2",
+                    "Value": 2,
+                    "Percentage": 96.0
+                },
+                {
+                    "Category": "Opportunity ",
+                    "Rank": "#19",
+                    "Value": 19,
+                    "Percentage": 62.0
+                },
+                {
+                    "Category": "Fiscal Stability ",
+                    "Rank": "#22",
+                    "Value": 22,
+                    "Percentage": 56.00000000000001
+                },
+                {
+                    "Category": "Crime & Corrections ",
+                    "Rank": "#15",
+                    "Value": 15,
+                    "Percentage": 70.0
+                }
+            ]
+        }
+    }
+]
